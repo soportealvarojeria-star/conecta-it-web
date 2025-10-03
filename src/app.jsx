@@ -1,15 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-/* NOTA IMPORTANTE: Para que la fuente funcione, el archivo HTML 
-  principal que carga esta aplicación de React debería incluir estos enlaces en su <head>:
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-*/
-
 // --- Variantes de Animación Reutilizables ---
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -27,7 +18,7 @@ const staggerContainer = {
   }
 };
 
-// --- Componentes de Iconos SVG (VERSIÓN FINAL CORREGIDA) ---
+// --- Componentes de Iconos SVG ---
 const HeadsetIcon = () => (
     <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M21 12.13V12C21 7.029 16.971 3 12 3C7.029 3 3 7.029 3 12V13C3 14.491 3.641 15.834 4.673 16.827" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
